@@ -5,14 +5,18 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
+dockerpath=rolakeanney/capstone-devops
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-
+kubectl run capstone-devops --image=$dockerpath 
 
 # Step 3:
 # List kubernetes pods
+kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
+kubectl port-forward capstone-devops 8090:80
+
 

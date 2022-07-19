@@ -48,3 +48,15 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Project Files
+.circleci: contains config.yml file to run job that test the dockerfile for errors
+output_txt_files: Showing docker and Kubernetes log outputs
+app.py: REST endpoint in flask containing containing routes to fetch house prices in boston
+Docker: Docker creation files with dependencies
+make_predictions.sh: Call to log output predictions from the REST api end point
+makefile: to install project dependencies and lint
+requirements.txt: Python dependencies for the project
+run_docker.sh: shell script to build the docker file
+run_kubernetes.sh: shell script to run and start up docker image in Kubernetes
+upload_docker: shell script to upload locally built image to Docker hub
