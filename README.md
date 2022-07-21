@@ -1,5 +1,4 @@
-<include a CircleCI status badge, here>
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/RolakeAnifowose/cloud-devops-capstone/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/RolakeAnifowose/cloud-devops-capstone/tree/master)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
@@ -51,7 +50,7 @@ source .devops/bin/activate
 
 ### Project Files
 * .circleci: contains config.yml file to run job that test the dockerfile for errors
-* output_txt_files: Showing docker and Kubernetes log outputs
+* output_txt_files: Showing docker and Kubernetes log outputs (Docker & Kubernetes output)
 * app.py: REST endpoint in flask containing containing routes to fetch house prices in boston
 * Docker: Docker creation files with dependencies
 * make_predictions.sh: Call to log output predictions from the REST api end point
