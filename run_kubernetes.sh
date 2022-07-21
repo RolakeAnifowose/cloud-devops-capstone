@@ -9,7 +9,7 @@ dockerpath=rolakeanney/capstone-devops
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run capstone-devops --image=docker.io/rolakeanney/capstone-devops:latest
+kubectl run capstone-devops --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
