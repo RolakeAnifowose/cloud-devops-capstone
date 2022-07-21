@@ -1,3 +1,10 @@
+NAME              READY   STATUS    RESTARTS   AGE
+capstone-devops   1/1     Running   0          7m2s
+Forwarding from 127.17.0.1:8090 -> 80
+Forwarding from [::1]:8090 -> 80
+Handling connection for 8090
+Handling connection for 8090
+
 * Serving Flask app "app" (lazy loading)
 * Environment: production
   WARNING: Do not use the development server in a production environment.
